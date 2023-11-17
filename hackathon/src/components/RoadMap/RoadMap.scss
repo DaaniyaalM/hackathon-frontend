@@ -2,6 +2,16 @@
     padding: 2.5rem;
 }
 
+.title{
+    margin: 0;
+    padding: 0;
+    
+}
+.description{
+    margin: 0;
+    padding: 0;
+}
+
 
 
 .container{
@@ -26,12 +36,14 @@
         height: 13.562rem;
         display: flex;
         align-items: center;
+        padding: 1rem;
     }
     &__card-left{
         width: 29.375rem;
         height: 13.562rem;
         display: flex;
         justify-content: flex-end;
+        padding: 1rem;
 
     }
     &__card-title{
