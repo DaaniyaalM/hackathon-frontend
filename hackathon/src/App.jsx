@@ -6,6 +6,7 @@ import RoadMap from "./components/RoadMap/RoadMap";
 import FormField from "./components/FormField/FormField";
 
 import "./App.scss";
+import SidePannel from "./components/SidePannel/SidePannel";
 
 function App() {
   return (
@@ -13,7 +14,12 @@ function App() {
       <Header />
       <main>
         <FormField />
-        {/* <RoadMap /> */}
+        <div className="content">
+        <RoadMap />
+        <SidePannel />
+
+        </div>
+        
       </main>
 
       <Footer />

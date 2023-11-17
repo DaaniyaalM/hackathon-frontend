@@ -10,9 +10,10 @@ import './RoadMap.scss';
 const RoadMap = () =>{
     return (
         <>
-        <h1>Your road to success!</h1>
-        <p>We’ve created the steps needed to get your business regulated</p>
+        
         <div className='wrapper'>
+        <h1 className='title'>Your road to success!</h1>
+        <p className='description'>We’ve created the steps needed to get your business regulated</p>
         <div className="container">
             <div className="container__left-pannel">
                 <div className='container__details-card'>
