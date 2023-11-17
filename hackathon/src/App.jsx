@@ -14,6 +14,8 @@ function App() {
       <main>
         {/* <FormField />
         <RoadMap /> */}
+
+        <RoadMap />
       </main>
 
       <Footer />
