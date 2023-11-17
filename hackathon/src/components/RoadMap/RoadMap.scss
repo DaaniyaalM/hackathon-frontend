@@ -1,0 +1,86 @@
+.wrapper{
+    padding: 2.5rem;
+}
+
+
+
+.container{
+    display: flex;
+    
+    
+    &__left-pannel{
+       
+
+    }
+
+    &__details-card{
+        border-radius: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 2px 0px rgba(24, 24, 27, 0.25), 0px 4px 8px 0px rgba(24, 24, 27, 0.04), 0px 8px 48px 0px rgba(24, 24, 27, 0.08);
+        width: 29.375rem;
+        padding: 1.5rem;
+       
+    }
+    &__card{
+        width: 29.375rem;
+        height: 13.562rem;
+        display: flex;
+        align-items: center;
+    }
+    &__card-left{
+        width: 29.375rem;
+        height: 13.562rem;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    &__card-title{
+        margin: 0 0 0 1rem;
+        padding: 0;
+        color: #000;
+        font-family: Helvetica;
+        font-size: 1.19144rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.75rem; /* 146.885% */
+        letter-spacing: -0.025rem;
+    }
+    
+    &__des-pannel{
+        display: flex;
+        text-align: left;
+        margin: 1rem 0;
+    }
+    &__card-description{
+        margin: 0;
+        padding: 0;
+    }
+    &__btn-pannel{
+        display: flex;
+        justify-content: right;
+    }
+    &__btn{
+        background-color: #008060;
+        border: 0;
+        height: 36px;
+        width: 100px;
+        color: white;
+        border-radius: 5px;
+       
+        text-align: center;
+    }
+    &__img-sec{
+        display: flex;
+    }
+    &__img{
+        width: 2.375rem;
+        height: 2.375rem;
+    }
+    &__v-line{
+        border: 4.5px solid grey;
+    }
+    &__title{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
