@@ -8,7 +8,7 @@ function Header() {
     <>
       <header className="header">
         <ul className="header__left">
-          <img src={logo} alt="header shopify logo" className="header__logo" />
+          <img src={logo} alt="shopify logo" className="header__logo" />
           <li>Solutions</li>
           <li>Pricing</li>
           <li>Resources</li>
@@ -28,7 +28,7 @@ function Header() {
           </p>
           <button className="hero__button">Build your shop</button>
         </div>
-        <img src={hero} alt="herobanner image" className="hero__image" />
+        <img src={hero} alt="herobanner" className="hero__image" />
       </div>
 
       <div>
