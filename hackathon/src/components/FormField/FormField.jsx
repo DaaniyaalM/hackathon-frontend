@@ -1,16 +1,17 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Assuming you are using React Router
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Assuming you are using React Router
+import './Formfield.scss';
 
 const FormField = () => {
   const [formData, setFormData] = useState({
     // Business Information
-    selling: "",
-    businessOperation: "",
+    selling: '',
+    businessOperation: '',
 
     // Geographic Information
-    city: "",
-    province: "",
-    country: "",
+    city: '',
+    province: '',
+    country: '',
   });
 
   const handleInputChange = (e) => {
@@ -24,7 +25,7 @@ const FormField = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // You can perform further actions with the form data here
-    console.log("Form submitted:", formData);
+    console.log('Form submitted:', formData);
   };
 
   return (
@@ -115,7 +116,7 @@ const FormField = () => {
         </div>
         <br />
 
-        <Link to={"/Roadmap"}>
+        <Link to={'/Roadmap'}>
           <button type="submit">Create Roadmap</button>
         </Link>
       </div>
