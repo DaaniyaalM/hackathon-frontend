@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import "./FormField.scss";
+import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Assuming you are using React Router
+
 const FormField = () => {
   const [formData, setFormData] = useState({
+    // Business Information
     selling: "",
-    businessOperation: "", // This state can be removed if not needed for dropdown
+    businessOperation: "",
+
+    // Geographic Information
     city: "",
     province: "",
     country: "",
@@ -21,7 +24,7 @@ const FormField = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // You can perform further actions with the form data here
-    console.log('Form submitted:', formData);
+    console.log("Form submitted:", formData);
   };
 
   return (
@@ -112,9 +115,10 @@ const FormField = () => {
         </div>
         <br />
 
-      <Link to={'/Roadmap'}>
-        <button type="submit">Create Roadmap</button>
-      </Link>
+        <Link to={"/Roadmap"}>
+          <button type="submit">Create Roadmap</button>
+        </Link>
+      </div>
     </form>
   );
 };
