@@ -1,0 +1,41 @@
+li {
+  list-style-type: none;
+}
+
+.footer {
+  padding: 0 15.62rem;
+  background-color: black;
+  color: white;
+  text-align: start;
+
+  &-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 62rem;
+    height: 39.25rem;
+  }
+
+  &__section1 {
+    display: flex;
+  }
+
+  &__section2 {
+    display: flex;
+  }
+
+  &-column {
+  }
+
+  &__icon-container {
+    position: relative;
+    width: 3.84rem;
+    height: 20rem;
+  }
+  &__icon {
+    // position: absolute;
+    bottom: 0;
+    width: 2.4rem;
+  }
+}

@@ -30,6 +30,10 @@ function Header() {
         </div>
         <img src={hero} alt="herobanner image" className="hero__image" />
       </div>
+
+      <div>
+        <h2>Don't worry, we believe in you.</h2>
+      </div>
     </>
   );
 }
