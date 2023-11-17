@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Assuming you are using React Router
-import './Formfield.scss';
+import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Assuming you are using React Router
+import "./Formfield.scss";
 
 const FormField = () => {
   const [formData, setFormData] = useState({
     // Business Information
-    selling: '',
-    businessOperation: '',
+    selling: "",
+    businessOperation: "",
 
     // Geographic Information
-    city: '',
-    province: '',
-    country: '',
+    city: "",
+    province: "",
+    country: "",
   });
 
   const handleInputChange = (e) => {
@@ -25,7 +25,7 @@ const FormField = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // You can perform further actions with the form data here
-    console.log('Form submitted:', formData);
+    console.log("Form submitted:", formData);
   };
 
   return (
@@ -71,7 +71,7 @@ const FormField = () => {
         <div className="form-input-wrapper">
           <label>
             <div className="form-input-columnizer">
-              What are you selling:
+              <p className="inputheader"> What are you selling: </p>
               <input
                 type="text"
                 name="selling"
@@ -85,7 +85,9 @@ const FormField = () => {
 
           <label>
             <div className="form-input-columnizer">
-              What kind of operation is your business:
+              <p className="inputheader">
+                What kind of operation is your business:
+              </p>
               {/* Replace the input with a select dropdown */}
               <select
                 name="businessOperation"
@@ -108,7 +110,7 @@ const FormField = () => {
           <div className="form-input-row">
             <label>
               <div className="form-input-columnizer">
-                Where is your business located?
+                <p className="inputheader"> Where is your business located?</p>
                 <input
                   type="text"
                   name="city"
@@ -123,7 +125,7 @@ const FormField = () => {
 
             <label>
               <div className="form-input-columnizer">
-                Province/State:
+                <p className="inputheader">Province/State:</p>
                 <input
                   type="text"
                   name="province"
@@ -138,7 +140,7 @@ const FormField = () => {
         <div className="form-input-wrapper">
           <label>
             <div className="form-input-columnizer">
-              Country:
+              <p className="inputheader"> Country: </p>
               <input
                 type="text"
                 name="country"
@@ -150,8 +152,8 @@ const FormField = () => {
         </div>
         <br />
 
-        <Link to={'/Roadmap'}>
-          <button type="submit">Create Roadmap</button>
+        <Link to={"/Roadmap"}>
+          <button className="submit">Create Roadmap</button>
         </Link>
       </div>
     </form>
