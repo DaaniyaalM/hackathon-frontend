@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  justify-content: space-between;
+  padding: 0 15.62rem;
+  background-color: black;
+  color: white;
+  &__logo {
+    width: 7.8125rem;
+    height: 2.23063rem;
+    margin-right: 3rem;
+  }
+  &__left {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 2rem;
+  }
+  &__right {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+  }
+  &__login {
+    margin-right: 3.36rem;
+  }
+
+  &__start {
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    padding: 0.69rem 1.36rem 0.75rem 1.38rem;
+    border-radius: 624.9375rem;
+  }
+}
+
+.hero {
+  display: flex;
+  width: 100rem;
+  justify-content: center;
+  background-color: #f0f1f2;
+  margin-left: 10rem;
+
+  &__container {
+    margin-right: 20rem;
+    text-align: start;
+    padding-left: 6rem;
+    padding-top: 2.8rem;
+  }
+
+  &__title {
+    font-size: 2.353rem;
+    margin-bottom: 0.6rem;
+  }
+
+  &__info {
+    font-size: 1.125rem;
+    margin-top: 0;
+    width: 26rem;
+  }
+
+  &__button {
+    width: 27rem;
+    color: white;
+    height: 3rem;
+    background-color: #008060;
+    border: transparent;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 3rem;
+  }
+
+  &__image {
+  }
+}
