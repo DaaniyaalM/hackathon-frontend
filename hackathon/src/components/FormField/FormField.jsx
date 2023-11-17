@@ -30,6 +30,40 @@ const FormField = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <div className="form">
+        <h1 className="form__title">
+          Don't worry,
+          <br />
+          we'll help you get started.
+        </h1>
+        <p className="form__subtitle">Creating a store for regulated items</p>
+        <p className="form__text">
+          Selling regulated items such as cosmetics and supplements can be
+          really challenging. There are many steps you have to take to create a
+          business, get approved and manufacture your product. We know it’s
+          hard, that’s why we’ve done all the work for you.
+          <br />
+          <br />
+          We know it’s hard, that’s why we’ve done all the work for you.
+        </p>
+      </div>
+
+      <div className="box">
+        <div className="box__1">
+          <p className="form__subtitle">1. Fill out the questions below </p>
+          <p className="form__text">
+            Tell us about your business and where you’re operating from.
+          </p>
+        </div>
+        <div className="box__2">
+          <p className="form__subtitle">2. We’ll create a business roadmap</p>
+          <p className="form__text">
+            Shopify will create a step by step guide on how to set up your
+            business.
+          </p>
+        </div>
+      </div>
+
       <div className="formWrapper">
         <div className="border-control">
           <h1 className="formTitle">Business Information</h1>
