@@ -5,15 +5,18 @@ import Footer from './components/Footer/Footer';
 import RoadMap from './components/RoadMap/RoadMap';
 import FormField from './components/FormField/FormField';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <main></main>
-      <FormField />
-      <RoadMap />
+      <main>
+        {/* <FormField />
+        <RoadMap /> */}
+
+        <RoadMap />
+      </main>
 
       <Footer />
     </div>
