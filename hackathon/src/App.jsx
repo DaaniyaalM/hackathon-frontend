@@ -11,9 +11,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main></main>
-      <FormField />
-      <RoadMap />
+      <main>
+        <FormField />
+        <RoadMap />
+      </main>
 
       <Footer />
     </div>
