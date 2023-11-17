@@ -1,3 +1,44 @@
 * {
   font-family: Helvetica, sans-serif;
 }
+.formTitle {
+  display: flex;
+  margin-left: 176px;
+  margin-right: 630px;
+  width: 50%;
+  border-bottom: 2px solid #b5b5b5;
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 133.333% */
+  letter-spacing: -0.3px;
+  //   font-feature-settings: "clig" off, "liga" off;
+}
+
+.formWrapper {
+  //   display: flex;
+  margin-right: 630px;
+  width: 100%;
+}
+
+// .border-control {
+//   width: 100%;
+// }
+
+.form-input-wrapper {
+  display: flex;
+  margin-left: 176px;
+  align-items: flex-start;
+}
+.form-input-row {
+  display: flex;
+  flex-direction: row;
+  margin: 24px;
+}
+.form-input-columnizer {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  text-align: left;
+}
