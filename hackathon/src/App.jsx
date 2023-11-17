@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 import RoadMap from './components/RoadMap/RoadMap';
 import FormField from './components/FormField/FormField';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
