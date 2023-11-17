@@ -37,7 +37,7 @@ const FormField = () => {
         <div className="form-input-wrapper">
           <label>
             <div className="form-input-columnizer">
-              What are you selling:
+              <p className="inputheader"> What are you selling: </p>
               <input
                 type="text"
                 name="selling"
@@ -51,7 +51,9 @@ const FormField = () => {
 
           <label>
             <div className="form-input-columnizer">
-              What kind of operation is your business:
+              <p className="inputheader">
+                What kind of operation is your business:
+              </p>
               {/* Replace the input with a select dropdown */}
               <select
                 name="businessOperation"
@@ -74,7 +76,7 @@ const FormField = () => {
           <div className="form-input-row">
             <label>
               <div className="form-input-columnizer">
-                Where is your business located?
+                <p className="inputheader"> Where is your business located?</p>
                 <input
                   type="text"
                   name="city"
@@ -89,7 +91,7 @@ const FormField = () => {
 
             <label>
               <div className="form-input-columnizer">
-                Province/State:
+                <p className="inputheader">Province/State:</p>
                 <input
                   type="text"
                   name="province"
@@ -104,7 +106,7 @@ const FormField = () => {
         <div className="form-input-wrapper">
           <label>
             <div className="form-input-columnizer">
-              Country:
+              <p className="inputheader"> Country: </p>
               <input
                 type="text"
                 name="country"
@@ -117,7 +119,7 @@ const FormField = () => {
         <br />
 
         <Link to={"/Roadmap"}>
-          <button type="submit">Create Roadmap</button>
+          <button className="submit">Create Roadmap</button>
         </Link>
       </div>
     </form>
